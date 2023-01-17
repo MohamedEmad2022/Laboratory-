@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../Css/lab2-ar.css">
+    <script src="../Js/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(
+        function () {
+            $(".men-icon").click(
+                function () {
+                    $(".men-res").toggle(1000);
+                }
+            )
+        }
+    );
+    </script>
+</head>
+<body>
+    <div class="header2">
+        <a href="../Html eng/login-en.html"><div class="en">EN</div></a>
+        <div class="men-icon">
+            <img src="../icon/bx-menu.svg" alt="">
+        </div>
+            <div class="contain">
+                <div class="logo">
+                    <a href="../Home-ar.html"><img src="../imag/logo.png"></a>
+                </div>
+                <div class="menu">
+                    <a href="../Html arabic/about us.html">عن معامل البرج</a>
+                    <a href="../Html arabic/service.html">خدماتنا</a>
+                    <a href="">فروعنا</a>
+                    <a href="">برنامج النقاط</a>
+                    <a href="">الحجز</a>
+                    <a href="">باقات التحاليل</a>
+                    <a href="">التحضيرات اللازمة</a>
+                    <a href="">تواصل معنا</a>
+                    <a href="../Html arabic/login.html" class="but-head">تسجيل الدخول</a>
+                    <img src="icon/bx-search.svg">
+                </div>
+            </div>
+            
+    </div>
+    <div class="men-res" id="menu">
+        <a href="../Html arabic/about us.html">عن معامل البرج</a>
+        <a href="../Html arabic/service.html">خدماتنا</a>
+        <a href="">فروعنا</a>
+        <a href="">برنامج النقاط</a>
+        <a href="">الحجز</a>
+        <a href="">باقات التحاليل</a>
+        <a href="">التحضيرات اللازمة</a>
+        <a href="">تواصل معنا</a>
+    </div>
+    
+        <div class="login-form">
+            <h2>تسجيل الدخول</h2>
+            <div class="inputs">
+                <input type="text" placeholder="اسم المستخدم" class="usname">
+                <input type="password" placeholder="كلمة السر" class="pass">
+                <p>هل نسيت كلمة السر</p>
+                <p style="margin-bottom: 30px;">انشاء حساب جديد</p>
+                <input type="button" value="تسجيل الدخول">
+                <span>أو</span>
+                <input type="button" value="التسجيل بحساب الفيس بوك">
+            </div>
+        </div>
+    
+    <div class="bot">
+        <div class="contain">
+            <div class="bot-top">
+                <div class="bot-top-menu">
+                    <a href="">العروض</a>
+                    <a href="">خدمات الافراد</a>
+                    <a href="">خدمات الشركات</a>
+                    <a href="">الاسئله الشائعة</a>
+                    <a href="">برنامج الولاء</a>
+                    <a href="">فروعنا</a>
+                </div>
+                <div class="bot-top-icons">
+                    <a href="https://www.facebook.com/AlBorg.Egypt"><img src="../icon/bxl-facebook-circle.svg" alt="facebooke"></a>
+                    <a href="https://www.instagram.com/alborg_labs/"><img src="../icon/bxl-instagram.svg" alt="instagram"></a>
+                    <a href="https://www.youtube.com/user/AlborgEgypt"><img src="../icon/bxl-youtube.svg" alt="youtube"></a>
+                </div>
+            </div>
+            <div class="bot-bot">
+                <div class="bot-bot-right">
+                   لمجموعة معامل البرج 2020  Ⓒ جميع الحقوق محفوظة
+                 </div>
+            </div>
+        </div>
+    </div>
+    <script src="../Js/lab2.js"></script>
+</body>
+</html>

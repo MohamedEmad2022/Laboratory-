@@ -1,0 +1,503 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(236, 236, 236);
+    direction: ltr;
+}
+.header2{
+    width: 100%;
+    background: #fecd49;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+.men-icon{
+    display: none;
+    padding: 10px 20px;
+}
+.contain{
+    max-width: 1140px;
+    margin: auto;
+    position: relative;
+}
+.header2 .logo{
+    float: right;
+}
+.header2 .logo img{
+    width: 50px;
+    height: 50px;
+    
+}
+.header2 .menu{
+    float: right;
+}
+.header2 .menu a{
+    text-decoration: none;
+    padding: 20px 10px;
+    float: right;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder; 
+    position: relative;
+    overflow: hidden;
+}
+.header2 .menu img{
+    float: right;
+    padding: 20px 10px;
+}
+.header2 .menu a::before{
+    content: "";
+    width: 0;
+    height: 4px;
+    border-radius: 3px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+    transition: .3s linear;
+}
+.header2 .menu a:hover::before{
+    width: 100%;
+}
+.header2 .menu .but-head{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.men-res{
+    position: absolute;
+    right: 0;
+    top: 45px;
+    background: grey;
+    width: 300px;
+    height: auto;
+    z-index: 222;
+    display: none;
+
+}
+
+
+.men-res a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    font-size: 15px;
+    color: black;
+    font-weight: bolder; 
+}
+.clear-fix{
+    clear: both;
+}
+.img-con{
+    width: 100%;
+    height: 500px;
+    background: rgb(187, 186, 186);
+    overflow: hidden;
+    position: relative;
+}
+
+.slid{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s linear;
+}
+.slid img{
+    width: 100%;
+    height: 100%;
+    
+}
+.cont2{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+    background: rgb(236, 236, 236);
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+   
+    
+}
+.h2-cont{
+    float: left;
+    width: 100%;
+    
+}
+.h2-cont h2{
+    text-align: right;
+    margin-right: 20px;
+    
+}
+.box{
+    float: right;
+    width: 47%;
+    height: 350px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: .6s;
+    overflow: hidden;
+}
+.box .box-top{
+    width: 100%;
+    height: 250px;
+    
+}
+.box .box-top img{
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+}
+.box .box-bottom{
+    width: 100%;
+    height: 95px;
+    text-align: right;
+    background: white;
+}
+.box:hover{
+    box-shadow: 5px 5px 5px rgba(185, 184, 184, 0.76);
+    transform: translateY(-10px);
+}
+.box:hover .box-top img{
+    opacity: 0.8;
+}
+.gold-card{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(../imag/card.jpg);
+    background-size: contain;
+    margin-top: 20px;
+}
+.gold-card h2{
+    text-align: center;
+    color: rgb(94, 93, 91);
+    font-size: 40px;
+    text-shadow: 10px gray;
+}
+.gold-card .title{
+    font-size: 25px;
+    max-height: 43px;
+    position: relative;
+   padding: 10px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+.gold-card .btn input[type="button"]{
+    width: 130px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    border: 2px solid black;
+    margin-top: 30px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.gold-card .btn input[type="button"]:hover{
+    background: white;
+    border: none;
+}
+.container{
+    float: left;
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.container .img-container{
+    height: 100%;
+    float: right;
+    height: 640px;
+   overflow: hidden;
+}
+.container .con-con{
+    padding: 20px 20px 0 0;
+    float: left;
+    width: 750px;
+    height: 640px;
+    text-align: right;
+}
+.container .con-con h2{
+    color: rgb(94, 93, 91);
+    font-size: 40px;
+    text-shadow: 10px gray;
+}
+.container .con-con p{
+    font-size: 20px;
+    color: gray;
+}
+.app-d, .google-d{
+    width: 200px;
+    height: 65px;
+    float: right;
+    margin-top: 70px;
+    margin-left: 30px;
+    transition: 0.2s;
+}
+
+.app-d{
+    background-image: url(../imag/app-store.png);
+}
+.google-d{
+    background-image: url(../imag/google-play-badge.png);
+}
+.app-d:hover, .google-d:hover{
+    transform: scale(1.1);
+}
+.home-visit{
+    float: left;
+    position: relative;
+    background: white;
+    width: 100%;
+    height: auto;
+}
+.home-visit .con-img{
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+.home-visit img{
+    width: 100%;
+    height: 100%;
+ 
+}
+.home-visit .title-{
+    float: right;
+    text-align: right;
+    height: 500px;
+    width: 500px;
+}
+.home-visit .title- h2{
+    color: rgb(94, 93, 91);
+    font-size: 40px;
+    text-shadow: 10px gray;
+}
+.home-visit .title- p{
+    font-size: 20px;
+    color: gray;
+}
+/*login page style*/
+
+.login-form{
+    
+    position: relative;
+    top: 100px;
+    width: 600px;
+    height: 500px;
+    background: white;
+    margin: auto;
+    
+}
+.login-form h2{
+    text-align: center;
+    
+}
+
+.usname, .pass{
+    display: block;
+    width: 300px;
+    text-align: right;
+    margin: 40px auto;
+    border: none;
+    border-bottom: 2px solid black;
+    height: auto;
+    outline: none;
+}
+.login-form p{
+    text-align: center;
+    
+}
+.inputs span, input[type="button"]{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+.inputs input[type="button"]{
+    background: #1a1a1a;;
+    border: none;
+    width: 170px;
+    padding: 10px;
+    color: white;
+   border-radius: 5px;
+
+}
+/*pag1 style*/
+.bot{
+    float: left;
+    width: 100%;
+    position: relative;
+    background-color: #1a1a1a;
+}
+.bot-top{
+    width: 100%;
+    float: left;
+}
+.bot .bot-top .bot-top-menu{
+    float: right;
+    margin: 40px 70px 0 0;
+}
+.bot .bot-top .bot-top-menu a{
+    text-decoration: none;
+    color: white;
+    font: 20px bold;
+    padding-left: 15px;
+    margin-left: 5px;
+    border-left: 2px solid white;
+}
+.bot .bot-top .bot-top-menu a:hover{
+    color: rgb(153, 151, 151);
+}
+.bot .bot-top-icons{
+    float: left;
+    margin: 40px 70px 0 0;
+}
+.bot .bot-top-icons img{
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 50%;
+   float: right;
+}
+.bot .bot-top-icons img:hover{
+    transform: scale(1.1);
+}
+.bot .bot-bot-right{
+    margin: 40px 70px 30px 0;
+    float: right;
+    font-size: 25px;
+    color: white;
+
+}
+/*about page style*/
+.con-info{
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-top: 100px;
+    background: white;
+}
+.con-info .part{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 70px;
+}
+.con-info .part .con-right{
+    float: right;
+    width: 40%;
+    height: 300px;
+}
+.con-info .part .con-right img{
+    width: 100%;
+    height: 100%;
+}
+.con-info .part .con-left{
+    float: left;
+    width: 55%;
+    height: 300px;
+}
+.con-info .part .con-left h2{
+    text-align: right;
+    font-size: 40px;
+    margin-top: 0;
+}
+.con-info .part .con-left p{
+    text-align: right;
+    font-size: 20px;
+    color: #5c5b5b;
+    line-height: 40px;
+}
+
+@media screen and (max-width:975px){
+    .cont2 .box{
+        width: 47%;
+        margin-bottom: 40px;
+    }
+    .header2 .menu, .header2 .logo{
+        display: none;
+    }
+    .header2{
+        position: absolute;
+        z-index: 22;
+    }
+    .header2 .men-icon{
+        display: block;
+        float: right;
+    }
+    .gold-card{
+        height: 300px;
+    }
+    .container .con-con{
+        width: 500px;
+        height: 640px;
+        text-align: right;
+    }
+    .home-visit img{
+        width: 400px;
+        height: 500px;
+        position: absolute;
+    
+    }
+    .home-visit .title-{
+        position: absolute;
+        right: 10px;
+        text-align: right;
+        height: 500px;
+        width: 400px;
+    }
+}
+/*phone style*/
+@media screen and (max-width:600px){
+    .cont2 .box{
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .container .img-container{
+        height: 100%;
+        width: 100%;
+    }
+    .container .con-con{
+        padding: 20px 20px 0 0;
+        width: 100%;
+        height: auto;
+        text-align: right;
+       
+    }
+    .home-visit .img-container{
+        width: 100%;
+        height: 500px;
+        float: left;
+    
+    }
+    .home-visit .title-{
+        float: left;
+        text-align: right;
+        height: 500px;
+        width: 100%;
+    }
+
+
+/*login page responsive*/
+.login-form{
+    width: 100%;
+    }
+
+    .con-info .part .con-right{
+        width: 100%;
+        float: left;
+    }
+    .con-info .part .con-left{
+        width: 100%;
+        float: left;
+    }
+}
